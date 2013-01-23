@@ -1,6 +1,13 @@
 ORIG_PN="MPlayer-ROX"
 inherit rox
 
+NAME="rox-mplayer"
+VERSION=1.8.2b
+RELEASE=2
+CATEGORY="ROX"
+SUMMARY="ROX video player"
+REQUIRES="mplayer"
+
 HOMEPAGE="http://www.maczewski.art.pl/shell/rox/"
 SRC_URI="http://www.maczewski.art.pl/shell/rox/prog/${ORIG_PN}-${PV}.tar.bz2"
 SRC_DIR=.
